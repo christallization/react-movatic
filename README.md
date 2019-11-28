@@ -4,7 +4,7 @@ Please make sure you have Docker installed and running.
 
 After cloning this repo please run: 
 
-docker-compose up –build
+docker-compose up --build
 
 After all processes are complete and you see the console message:
 
