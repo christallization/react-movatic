@@ -8,8 +8,8 @@ docker-compose up –build
 
 After all processes are complete and you see the console message:
 
-Successfully tagged client_client:latest
-Creating client ... done
+Successfully tagged react-movatic_client-react-movatic:latest
+Creating client-react-movatic ... done
 
 You have successfully fired up a Docker container and can now access the app here: 
 
