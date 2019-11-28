@@ -1,0 +1,71 @@
+.app {
+
+  .app-logo {
+    margin: 0 0 5px 05px;
+  }
+
+  .app-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .app-link {
+    color: #09d3ac;
+  }
+
+  .tableHeader {
+    text-align: right;
+  }
+
+  table {
+    text-align: left;
+
+    tbody {
+      tr {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .expandDetails {
+    text-align: center;
+    padding: 10px;
+    background: #069;
+    color: #fff;
+    font-size: 1rem;
+
+    p {
+      font-weight: bold;
+      margin: 0 0 5px 0;
+      white-space: nowrap;
+      text-align: center;
+      text-decoration: underline;
+
+      span {
+        color: yellow;
+        padding: 0 0 0 10px;
+      }
+    }
+
+    .content {
+      margin: 10px 10px 5px 10px;
+
+      p {
+        text-align: left;
+        text-decoration: none;
+      }
+    }
+
+  }
+
+  .react-bootstrap-table-pagination-total {
+    margin: 0 5px;
+  }
+
+}

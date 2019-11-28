@@ -1,0 +1,17 @@
+
+version: '3.7'
+
+services:
+
+  client-react-movatic:
+    container_name: client-react-movatic
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '3001:3000'
+    environment:
+      - NODE_ENV=development
